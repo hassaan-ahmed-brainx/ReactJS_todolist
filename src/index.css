@@ -1,0 +1,157 @@
+.logout-button
+{
+position: absolute;
+right: 20px;
+top: 20px;
+}
+
+#form_login
+{
+  background-color: cadetblue;
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+  text-align: center;
+  min-height: 70%;
+  min-width: 100%;
+  
+}
+
+.gradient-custom-login {
+
+  background: #6a11cb;
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+.bg-image-signup
+{
+  background-image: none;
+  background: #6a11cb;
+  height: 100%!important;
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+
+
+}
+.login-card
+{
+  background-color: white;
+}
+
+.signup-height
+{
+  height: 100%;
+}
+
+
+.signuppage-textalign
+{
+  text-align: center;
+}
+
+.signup-padding
+{
+  padding-left: 6rem!important;
+  padding-right: 6rem!important;
+}
+
+
+
+.todo-body-style{
+  background-image: linear-gradient(45deg, #17a2b8, #3a82ab);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.todo-text-center{
+  width: 50%;
+  min-width: 450px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgb(22 22 22 / 20%);
+}
+.todo-header1
+{
+  color: #0014f8;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+
+}
+
+.mytodo
+{
+  width: 100%;
+  border: 2px solid #f0f0f0;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.bottom-line
+{
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  margin-top: 2rem;
+}
+
+
+
+#tasks_list li{
+  list-style-type: none;
+  text-align: left;
+  position: relative;
+  font-size: 1rem;
+  padding: 16px 16px 16px 0;
+  border-bottom: 1px solid black;
+}
+
+
+.isChecked {
+  text-decoration: line-through;
+}
+
+.unchecked
+{
+  text-decoration: none;
+
+}
+
+.edit-button
+{
+  border: none;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.delete-button
+{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.logout-button
+{
+  border: none;
+
+}
